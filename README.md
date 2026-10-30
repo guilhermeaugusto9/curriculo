@@ -1,68 +1,46 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
+# Guilherme Augusto — Static Portfolio Refactor
 
-[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+A redesigned, bilingual (English-first / Portuguese) professional portfolio built with plain HTML, CSS and JavaScript. It is designed for GitHub Pages and requires no build step, server, database, package installation or API key.
 
-## Preview
+## Preview locally
 
-[![Resume Preview](https://startbootstrap.com/assets/img/screenshots/themes/resume.png)](https://blackrockdigital.github.io/startbootstrap-resume/)
+Open `index.html` in a browser. For a local HTTP preview, run `python3 -m http.server 8000` from this directory and visit `http://localhost:8000`.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
+## Publish to GitHub Pages
 
-## Status
+1. Review all professional statements, dates, project links and the downloadable résumé.
+2. Copy the contents of this directory into the repository root used by GitHub Pages (or replace the existing site files in a branch first).
+3. Commit and push to the branch/folder configured in **Settings → Pages**.
+4. Verify the deployed site, language switch, mobile navigation, résumé PDF and every external link.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
+## Design and implementation decisions
 
-## Download and Installation
+- **English-first:** English is the default for new visitors; the language switch changes the content to Portuguese. The visitor's choice is stored locally when browser storage is available.
+- **Static by design:** all content is in HTML and JavaScript. No server-side logic or runtime API is required. Google Fonts is an optional external font enhancement; the page has local system fallbacks if unavailable.
+- **Communication, not inflated claims:** copy emphasizes scope, domain and responsibilities while avoiding invented impact metrics. Private company work is explicitly labelled as internal.
+- **Skills by domain:** no percentage/proficiency bars; technologies are grouped by how they are used.
+- **Accessible interaction:** semantic landmarks, skip link, visible focus defaults, language control labels, responsive mobile navigation and reduced-motion support.
+- **SEO and sharing:** title, description, canonical URL, Open Graph, Twitter card and Person structured data.
+- **Performance:** no framework or icon library required; profile image is local and prioritized; project content is rendered from compact local data.
+- **Print:** CSS print styles provide a simplified printable version. The supplied PDF is included as a separate résumé download.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
-* Install via npm: `npm i startbootstrap-resume`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
+## Project structure
 
-## Usage
+- `index.html` — semantic page structure, metadata and JSON-LD.
+- `styles.css` — design system, layout, responsive styles and print rules.
+- `app.js` — English and Portuguese copy and client-side rendering.
+- `assets/profile.jpeg` — profile image supplied for this refactor.
+- `assets/guilherme-augusto-cv.pdf` — résumé PDF supplied for this refactor.
 
-### Basic Usage
+## Before publishing
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+- Confirm that all wording accurately reflects your experience and that internal-company details are appropriate for public disclosure.
+- Confirm the exact education wording for University of Washington / Coursera and any other credential that may need a more precise formal name.
+- Check that the profile image is the intended public portrait and that you want the PDF available for download.
+- Consider replacing the generic GitHub notebooks card with direct links to specific repositories/notebooks that you want recruiters to see.
+- Confirm the canonical URL if the repository or Pages path changes.
+- Consider adding a custom social preview image (1200×630) and a `404.html` if the site structure grows.
 
-### Advanced Usage
+## Technical note
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm installed globally in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+This is a no-build static site. It does not use npm at runtime. It deliberately does not introduce analytics trackers, contact forms requiring a backend, external content APIs or a CMS.
