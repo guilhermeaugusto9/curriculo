@@ -23,3 +23,9 @@
 @media(max-width:760px){.focus-section .skills-grid{grid-template-columns:1fr}.dino-badge{width:46px;top:-20px}}
 @media(max-width:1100px){.nav{gap:10px}}
 .hero h1{font-size:clamp(40px,5vw,72px)}
+
+.role-block{margin:18px 0 0;padding-left:16px;border-left:2px solid var(--accent)}
+.role-head{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
+.role-head strong{color:var(--text);font-size:16px}
+.role-head span{color:var(--muted);font-size:13px}
+.role-block ul{margin-top:8px}

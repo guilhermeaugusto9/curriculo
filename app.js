@@ -4,7 +4,7 @@ const copy = {
     navAbout: 'Sobre', navFocus: 'Foco', navExperience: 'Experiência', navSkills: 'Competências', navProjects: 'Projetos', navEducation: 'Formação', contact: 'Contato',
     heroEyebrow: 'ENGENHARIA DE DADOS · ENSINO DE DADOS E IA',
     heroTitle: 'Engenheiro de dados.<br>Professor de <em>dados e IA.</em>',
-    heroLede: 'Construo pipelines e agentes de IA no iFood e ensino dados, Power BI e IA aplicada a mais de 20 mil alunos na Academia BePro.',
+    heroLede: 'Construo pipelines e agentes de IA no iFood e ensino IA, prompting e dados a mais de 20 mil alunos na Academia BePro.',
     heroTags: '<span>Engenharia de Dados</span><span>Databricks</span><span>IA Aplicada</span><span>Ensino</span>',
     viewExperience: 'Ver experiência <span aria-hidden="true">↘</span>', viewLinkedin: 'Ver LinkedIn <span aria-hidden="true">↗</span>',
     currently: 'ATUALMENTE', location: 'Belo Horizonte, Brasil · Atuação global',
@@ -12,7 +12,7 @@ const copy = {
     heroBottom: 'Dados na prática. Ensino com clareza.',
     aboutLabel: 'PERFIL', aboutTitle: 'Construo<br><em>e ensino dados.</em>',
     aboutLead: 'Engenheiro de dados com mais de 10 anos de experiência, hoje no iFood, e professor de dados e IA na Academia BePro.',
-    aboutBody: 'No dia a dia, construo pipelines no Databricks, mantenho agentes de IA e crio skills usadas por vários times. Fora dele, transformo o que aprendo em aulas práticas de Excel, Power BI, Google Workspace e IA para quem quer usar dados no trabalho.',
+    aboutBody: 'No dia a dia, construo pipelines no Databricks, mantenho agentes de IA e crio skills usadas por vários times. Fora dele, transformo o que aprendo em aulas práticas de IA aplicada, prompting, automação, Excel e Google Workspace para quem quer usar dados e IA no trabalho.',
     aboutBody2: 'Já atuei com Operações, Finanças, Vendas, Produto e Customer Success, no Brasil e em times internacionais. No iFood, fui responsável pela engenharia do time campeão do AI Got Talent 2025.',
     statYears: 'anos em dados e analytics', statAgents: 'agentes na competição AI Got Talent', statStudents: 'alunos na plataforma de ensino',
     focusLabel: 'FOCO', focusTitle: 'Duas frentes,<br><em>uma só base.</em>',
@@ -32,21 +32,21 @@ const copy = {
       { title: 'Engenharia de Dados', tag: 'FRENTE / 01', lead: 'Pipelines confiáveis, produtos de dados e agentes de IA em escala.', accent: true,
         items: ['Pipelines em Databricks, PySpark e Delta Lake, com deploy versionado via DAB', 'Agentes de IA e skills reutilizáveis usados por vários times', 'Qualidade de dados, performance e custo de computação em nuvem'] },
       { title: 'Ensino de Dados e IA', tag: 'FRENTE / 02', lead: 'Aulas práticas para quem quer usar dados e IA no trabalho.',
-        items: ['Excel, Power BI, Word, PowerPoint e Google Workspace', 'IA aplicada a planilhas, análise de dados e automação', 'Trilhas e especializações, como Excel e IA para RH, na Academia BePro'] }
+        items: ['IA aplicada e prompting para o trabalho', 'IA em planilhas, análise de dados e automação', 'Excel, Google Workspace, Word e PowerPoint', 'Trilhas e especializações, como Excel e IA para RH, na Academia BePro'] }
     ],
     experiences: [
-      { date: 'Fev 2026 — Atual', company: 'iFood · Data Logistics', role: 'Analytics Engineer', summary: 'Engenharia de dados e IA aplicada: pipelines no Databricks com deploy versionado por Databricks Asset Bundles (DAB).',
-        bullets: ['Construo e mantenho agentes de IA com acesso a mais de 100 modelos da plataforma interna.', 'Uso Claude, Hermes e RAG para fundamentar respostas em dados corporativos.', 'Crio skills reutilizáveis e fluxos automatizados que reduzem trabalho repetitivo em vários times.', 'Responsável pela engenharia do time campeão do AI Got Talent 2025 do iFood, entre cerca de 10 mil agentes.'],
-        tags: ['Databricks', 'DAB', 'PySpark', 'Claude', 'Hermes', 'RAG', 'Agentes de IA'] },
-      { date: 'Jan 2024 — Atual', company: 'Academia BePro', role: 'Professor · Dados, BI e IA aplicada', summary: 'Ensino produtividade, análise de dados e IA em uma plataforma com mais de 20 mil alunos.',
-        bullets: ['Dou aulas de Excel, Word, PowerPoint, Google Workspace e Power BI.', 'Crio aulas, materiais, templates, dashboards e minicursos para áreas de negócio, como a especialização Excel e IA para RH.', 'Ensino usos práticos de IA em planilhas, análise de dados e automação no trabalho.'],
-        tags: ['Power BI', 'Excel', 'IA aplicada', 'Google Workspace', 'Didática', 'Criação de cursos'] },
+      { date: 'Mar 2025 — Atual', company: 'iFood', role: 'Engenharia de Dados e IA', summary: 'Uma trajetória contínua no iFood: de BI Sênior a Analytics Engineer, construindo pipelines em larga escala e agentes de IA usados por vários times.',
+        roles: [
+          { role: 'Analytics Engineer', team: 'Data Logistics', date: 'Fev 2026 — Atual', bullets: ['Construo e mantenho agentes de IA com acesso a mais de 100 modelos da plataforma interna.', 'Desenho prompts, contexto e RAG com Claude e Hermes para fundamentar respostas em dados corporativos.', 'Crio skills reutilizáveis e fluxos automatizados que eliminam trabalho repetitivo em vários times.', 'Pipelines no Databricks com deploy versionado por Databricks Asset Bundles (DAB).'] },
+          { role: 'Business Intelligence Sênior', team: 'Planejamento Comercial (PlanCom)', date: 'Mar 2025 — Fev 2026', bullets: ['Responsável pela engenharia do time campeão do AI Got Talent 2025, entre cerca de 10 mil agentes.', 'Pipelines analíticos críticos em Databricks e Delta Lake, com foco em performance, custo, qualidade e governança.', 'Otimização Spark: broadcast, cache, particionamento e Z-order.'] }
+        ],
+        tags: ['Agentes de IA', 'Prompting', 'Claude', 'Hermes', 'RAG', 'Databricks', 'DAB', 'PySpark', 'Delta Lake'] },
+      { date: 'Jan 2024 — Atual', company: 'Academia BePro', role: 'Professor · IA aplicada, Prompting e Dados', summary: 'Ensino produtividade, análise de dados e IA em uma plataforma com mais de 20 mil alunos.',
+        bullets: ['Dou aulas de IA aplicada, prompting e automação, além de Excel, Google Workspace, Word e PowerPoint.', 'Crio aulas, materiais, templates, dashboards e minicursos para áreas de negócio, como a especialização Excel e IA para RH.', 'Ensino usos práticos de IA em planilhas, análise de dados e automação no trabalho.'],
+        tags: ['IA aplicada', 'Prompting', 'Automação', 'Excel', 'Google Workspace', 'Didática'] },
       { date: '2024 — Atual', company: 'HUB Futuro AI', role: 'Criador · Engenharia de IA', summary: 'Projeto próprio de apps e agentes de IA para necessidades práticas de negócio.',
         bullets: ['Construo agentes com Google Gemini SDK, Claude e RAG sobre bases de conhecimento específicas.', 'Integro APIs do Google Workspace: Calendar, Meet, Drive e Gmail.', 'Desenvolvo interfaces e fluxos com React, TypeScript e Firebase.'],
         tags: ['Gemini SDK', 'Claude', 'RAG', 'React', 'TypeScript', 'Firebase'], link: 'https://hubfuturo.ai', linkLabel: 'Conhecer o HUB Futuro AI' },
-      { date: 'Mar 2025 — Fev 2026', company: 'iFood · Planejamento Comercial (PlanCom)', role: 'Business Intelligence Sênior', summary: 'Engenharia de dados e analytics para planejamento comercial, com pipelines em larga escala e soluções apoiadas por IA.',
-        bullets: ['Construí o agente de IA vencedor de competição interna com mais de 10 mil agentes.', 'Desenvolvi e sustentei pipelines analíticos críticos em Databricks e Delta Lake.', 'Atuei em performance, custo computacional, qualidade, validação e governança de dados.', 'Apliquei técnicas de otimização Spark: broadcast, cache, particionamento e Z-order.'],
-        tags: ['PySpark', 'Spark SQL', 'Databricks', 'Delta Lake', 'Python', 'ETL / ELT'] },
       { date: 'Mar 2024 — Mar 2025', company: 'RHI Magnesita', role: 'Data Engineer Specialist', summary: 'Integração de dados ao hub corporativo e suporte analítico a Operações, Finanças e Vendas.',
         bullets: ['Construí e melhorei processos de integração e análise de dados.', 'Desenvolvi e ajustei modelos Power BI para apoiar decisões estratégicas.', 'Trabalhei com procedures e SQL avançado no SQL Server, além de Databricks e PySpark.'],
         tags: ['SQL Server', 'Databricks', 'PySpark', 'Power BI'] },
@@ -70,15 +70,15 @@ const copy = {
         tags: ['Python', 'Web scraping', 'Análise de mercado'] }
     ],
     skills: [
+      { title: 'Engenharia de IA', desc: 'Agentes, recuperação de contexto e IA aplicada ao trabalho.', items: ['Agentes de IA', 'RAG', 'Claude', 'Hermes', 'Google Gemini SDK', 'Prompt engineering', 'Skills e automações', 'Machine learning', 'Estatística'] },
       { title: 'Engenharia de Dados & Cloud', desc: 'Pipelines, processamento distribuído e plataformas de dados.', items: ['Databricks', 'Delta Lake', 'Databricks Asset Bundles', 'PySpark', 'Spark SQL', 'Google Cloud Platform', 'BigQuery', 'AWS Redshift', 'Amazon S3', 'Oracle', 'SQL Server'] },
       { title: 'Programação & Processamento', desc: 'Código, transformação e integração para cargas analíticas.', items: ['Python', 'SQL', 'Pandas', 'ETL / ELT', 'Argo Workflows', 'Web scraping', 'Git', 'CI/CD', 'Linux & Bash'] },
-      { title: 'Engenharia de IA', desc: 'Agentes, recuperação de contexto e IA aplicada ao trabalho.', items: ['Agentes de IA', 'RAG', 'Claude', 'Hermes', 'Google Gemini SDK', 'Skills e automações', 'Machine learning', 'Estatística'] },
-      { title: 'Ensino & Conteúdo', desc: 'Explicar dados e IA de forma clara e aplicável.', items: ['Didática', 'Criação de cursos', 'Roteiros de aula', 'Excel', 'Power BI', 'Google Workspace', 'Word e PowerPoint', 'IA aplicada'] },
+      { title: 'Ensino & Conteúdo', desc: 'Explicar dados e IA de forma clara e aplicável.', items: ['IA aplicada', 'Prompting', 'Didática', 'Criação de cursos', 'Roteiros de aula', 'Excel', 'Google Workspace', 'Word e PowerPoint'] },
       { title: 'BI & Visualização', desc: 'Modelos analíticos e relatórios claros para decisão.', items: ['Power BI', 'DAX', 'Looker Studio', 'Tableau', 'Excel', 'Modelagem de dados', 'Dashboards'] },
       { title: 'Qualidade & Colaboração', desc: 'Sistemas confiáveis e conexão entre técnica e negócio.', items: ['Qualidade de dados', 'Validação', 'Governança', 'Otimização de performance', 'Particionamento', 'Z-order', 'Gestão de stakeholders', 'Estratégia de dados'] }
     ],
     projects: [
-      { type: 'Ensino · Academia BePro', title: 'Cursos de dados e IA', desc: 'Aulas e especializações de Excel, Power BI, Google Workspace e IA aplicada, como a trilha Excel e IA para RH.', tags: 'Excel · Power BI · IA aplicada', private: false },
+      { type: 'Ensino · Academia BePro', title: 'Cursos de dados e IA', desc: 'Aulas e especializações de IA aplicada, prompting, Excel e Google Workspace, como a trilha Excel e IA para RH.', tags: 'IA aplicada · Prompting · Excel', private: false },
       { type: 'Plataforma · IA aplicada', title: 'HUB Futuro AI', desc: 'Apps, automações e agentes de IA construídos em torno de fluxos de trabalho reais.', tags: 'Gemini · Claude · RAG · Workspace APIs', url: 'https://hubfuturo.ai', label: 'Conhecer plataforma' },
       { type: 'Reconhecimento · Engenharia de IA', title: 'Agente vencedor do AI Got Talent', desc: 'Engenharia do agente de IA do iFood campeão de uma competição interna com mais de 10 mil agentes. Detalhes da implementação são internos à empresa.', tags: 'Databricks · Claude · Hermes · RAG', private: true },
       { type: 'Machine Learning · Notebook', title: 'Churn Prediction', desc: 'Notebook público que explora previsão de churn com um fluxo de machine learning.', tags: 'Python · Machine learning', url: 'https://colab.research.google.com/drive/1wxCWeHqj4pZ0ZLYTjWFYSuNopEZzS2WQ?usp=sharing', label: 'Abrir notebook' },
@@ -98,7 +98,7 @@ const copy = {
     navAbout: 'About', navFocus: 'Focus', navExperience: 'Experience', navSkills: 'Skills', navProjects: 'Projects', navEducation: 'Education', contact: 'Contact',
     heroEyebrow: 'DATA ENGINEERING · TEACHING DATA & AI',
     heroTitle: 'Data engineer.<br>Teacher of <em>data & AI.</em>',
-    heroLede: 'I build data pipelines and AI agents at iFood, and teach data, Power BI and applied AI to 20,000+ learners at Academia BePro.',
+    heroLede: 'I build data pipelines and AI agents at iFood, and teach AI, prompting and data to 20,000+ learners at Academia BePro.',
     heroTags: '<span>Data Engineering</span><span>Databricks</span><span>Applied AI</span><span>Teaching</span>',
     viewExperience: 'View experience <span aria-hidden="true">↘</span>', viewLinkedin: 'View LinkedIn <span aria-hidden="true">↗</span>',
     currently: 'CURRENTLY', location: 'Belo Horizonte, Brazil · Working globally',
@@ -123,24 +123,25 @@ const copy = {
     emailMe: 'Email me <span aria-hidden="true">↗</span>', footerNote: 'A lightweight, static portfolio.', backTop: 'Back to top ↑',
     viewProject: 'Explore project', privateProject: 'Company-internal work', publicProject: 'Public project',
     focus: [
+      { title: 'AI Engineering', desc: 'Agents, retrieval and AI applied to real work.', items: ['AI agents', 'RAG', 'Claude', 'Hermes', 'Google Gemini SDK', 'Prompt engineering', 'Skills & automations', 'Machine learning', 'Statistics'] },
       { title: 'Data Engineering', tag: 'TRACK / 01', lead: 'Reliable pipelines, data products and AI agents at scale.', accent: true,
         items: ['Pipelines on Databricks, PySpark and Delta Lake, with versioned deploys via DAB', 'AI agents and reusable skills used by several teams', 'Data quality, performance and cloud compute cost'] },
       { title: 'Teaching Data & AI', tag: 'TRACK / 02', lead: 'Practical lessons for people who want to use data and AI at work.',
-        items: ['Excel, Power BI, Word, PowerPoint and Google Workspace', 'AI applied to spreadsheets, data analysis and automation', 'Learning paths and specializations, such as Excel and AI for HR, at Academia BePro'] }
+        items: ['Applied AI and prompting for work', 'AI in spreadsheets, data analysis and automation', 'Excel, Google Workspace, Word and PowerPoint', 'Learning paths and specializations, such as Excel and AI for HR, at Academia BePro'] }
     ],
     experiences: [
-      { date: 'Feb 2026 — Present', company: 'iFood · Data Logistics', role: 'Analytics Engineer', summary: 'Data engineering and applied AI: Databricks pipelines with versioned deploys through Databricks Asset Bundles (DAB).',
-        bullets: ['I build and maintain AI agents connected to 100+ models on the internal platform.', 'I use Claude, Hermes and RAG to ground agent answers in company data.', 'I create reusable skills and automated workflows that cut repetitive work across teams.', 'Responsible for the engineering behind the team that won iFood’s 2025 AI Got Talent, among about 10,000 agents.'],
-        tags: ['Databricks', 'DAB', 'PySpark', 'Claude', 'Hermes', 'RAG', 'AI agents'] },
-      { date: 'Jan 2024 — Present', company: 'Academia BePro', role: 'Instructor · Data, BI & Applied AI', summary: 'I teach productivity, data analysis and AI on a platform with 20,000+ learners.',
-        bullets: ['I teach Excel, Word, PowerPoint, Google Workspace and Power BI.', 'I create lessons, materials, templates, dashboards and short courses for business roles, including the Excel and AI for HR specialization.', 'I teach practical uses of AI for spreadsheets, data analysis and workplace automation.'],
-        tags: ['Power BI', 'Excel', 'Applied AI', 'Google Workspace', 'Teaching', 'Course design'] },
+      { date: 'Mar 2025 — Present', company: 'iFood', role: 'Data & AI Engineering', summary: 'One continuous path at iFood: from Senior BI to Analytics Engineer, building large-scale pipelines and AI agents used by several teams.',
+        roles: [
+          { role: 'Analytics Engineer', team: 'Data Logistics', date: 'Feb 2026 — Present', bullets: ['I build and maintain AI agents connected to 100+ models on the internal platform.', 'I design prompts, context and RAG with Claude and Hermes to ground answers in company data.', 'I create reusable skills and automated workflows that remove repetitive work across teams.', 'Databricks pipelines with versioned deploys through Databricks Asset Bundles (DAB).'] },
+          { role: 'Senior Business Intelligence Analyst', team: 'Commercial Planning (PlanCom)', date: 'Mar 2025 — Feb 2026', bullets: ['Responsible for the engineering behind the team that won the 2025 AI Got Talent, among about 10,000 agents.', 'Critical analytical pipelines on Databricks and Delta Lake, focused on performance, cost, quality and governance.', 'Spark tuning: broadcast, caching, partitioning and Z-order.'] }
+        ],
+        tags: ['AI agents', 'Prompting', 'Claude', 'Hermes', 'RAG', 'Databricks', 'DAB', 'PySpark', 'Delta Lake'] },
+      { date: 'Jan 2024 — Present', company: 'Academia BePro', role: 'Instructor · Applied AI, Prompting & Data', summary: 'I teach productivity, data analysis and AI on a platform with 20,000+ learners.',
+        bullets: ['I teach applied AI, prompting and automation, plus Excel, Google Workspace, Word and PowerPoint.', 'I create lessons, materials, templates, dashboards and short courses for business roles, including the Excel and AI for HR specialization.', 'I teach practical uses of AI for spreadsheets, data analysis and workplace automation.'],
+        tags: ['Applied AI', 'Prompting', 'Automation', 'Excel', 'Google Workspace', 'Teaching'] },
       { date: '2024 — Present', company: 'HUB Futuro AI', role: 'Creator · AI Engineering', summary: 'A personal project of apps and AI agents for practical business needs.',
         bullets: ['I build agents with Google Gemini SDK, Claude and RAG over tailored knowledge bases.', 'I integrate Google Workspace APIs: Calendar, Meet, Drive and Gmail.', 'I develop interfaces and workflows with React, TypeScript and Firebase.'],
         tags: ['Gemini SDK', 'Claude', 'RAG', 'React', 'TypeScript', 'Firebase'], link: 'https://hubfuturo.ai', linkLabel: 'Explore HUB Futuro AI' },
-      { date: 'Mar 2025 — Feb 2026', company: 'iFood · Commercial Planning (PlanCom)', role: 'Senior Business Intelligence Analyst', summary: 'Data engineering and analytics for commercial planning, with large-scale pipelines and AI-enabled solutions.',
-        bullets: ['I built the AI agent that won an internal competition with 10,000+ agents.', 'I developed and maintained critical analytical pipelines on Databricks and Delta Lake.', 'I worked on performance, compute cost, data quality, validation and governance.', 'I applied Spark tuning: broadcast, caching, partitioning and Z-order.'],
-        tags: ['PySpark', 'Spark SQL', 'Databricks', 'Delta Lake', 'Python', 'ETL / ELT'] },
       { date: 'Mar 2024 — Mar 2025', company: 'RHI Magnesita', role: 'Data Engineer Specialist', summary: 'Data integration into the corporate data hub and analytical support for Operations, Finance and Sales.',
         bullets: ['I built and improved data integration and analytics processes.', 'I developed and tuned Power BI models to support strategic decisions.', 'I worked with SQL Server procedures and advanced SQL, plus Databricks and PySpark.'],
         tags: ['SQL Server', 'Databricks', 'PySpark', 'Power BI'] },
@@ -166,13 +167,12 @@ const copy = {
     skills: [
       { title: 'Data Engineering & Cloud', desc: 'Pipelines, distributed processing and data platforms.', items: ['Databricks', 'Delta Lake', 'Databricks Asset Bundles', 'PySpark', 'Spark SQL', 'Google Cloud Platform', 'BigQuery', 'AWS Redshift', 'Amazon S3', 'Oracle', 'SQL Server'] },
       { title: 'Programming & Processing', desc: 'Code, transformation and integration for analytical workloads.', items: ['Python', 'SQL', 'Pandas', 'ETL / ELT', 'Argo Workflows', 'Web scraping', 'Git', 'CI/CD', 'Linux & Bash'] },
-      { title: 'AI Engineering', desc: 'Agents, retrieval and AI applied to real work.', items: ['AI agents', 'RAG', 'Claude', 'Hermes', 'Google Gemini SDK', 'Skills & automations', 'Machine learning', 'Statistics'] },
-      { title: 'Teaching & Content', desc: 'Explaining data and AI in a clear, applicable way.', items: ['Teaching', 'Course design', 'Lesson scripts', 'Excel', 'Power BI', 'Google Workspace', 'Word & PowerPoint', 'Applied AI'] },
+      { title: 'Teaching & Content', desc: 'Explaining data and AI in a clear, applicable way.', items: ['Applied AI', 'Prompting', 'Teaching', 'Course design', 'Lesson scripts', 'Excel', 'Google Workspace', 'Word & PowerPoint'] },
       { title: 'BI & Visualization', desc: 'Analytical models and clear reporting for decisions.', items: ['Power BI', 'DAX', 'Looker Studio', 'Tableau', 'Excel', 'Data modeling', 'Dashboards'] },
       { title: 'Quality & Collaboration', desc: 'Dependable systems and a bridge between tech and business.', items: ['Data quality', 'Validation', 'Governance', 'Performance tuning', 'Partitioning', 'Z-order', 'Stakeholder management', 'Data strategy'] }
     ],
     projects: [
-      { type: 'Teaching · Academia BePro', title: 'Data & AI courses', desc: 'Lessons and specializations on Excel, Power BI, Google Workspace and applied AI, such as the Excel and AI for HR path.', tags: 'Excel · Power BI · Applied AI', private: false },
+      { type: 'Teaching · Academia BePro', title: 'Data & AI courses', desc: 'Lessons and specializations on applied AI, prompting, Excel and Google Workspace, such as the Excel and AI for HR path.', tags: 'Applied AI · Prompting · Excel', private: false },
       { type: 'Platform · Applied AI', title: 'HUB Futuro AI', desc: 'Apps, automations and AI agents built around real workflows.', tags: 'Gemini · Claude · RAG · Workspace APIs', url: 'https://hubfuturo.ai', label: 'Explore platform' },
       { type: 'Recognition · AI Engineering', title: 'AI Got Talent — winning agent', desc: 'Engineering behind the iFood AI agent that won an internal competition with 10,000+ agents. Implementation details are company-internal.', tags: 'Databricks · Claude · Hermes · RAG', private: true },
       { type: 'Machine Learning · Notebook', title: 'Churn Prediction', desc: 'A public notebook exploring churn prediction with a machine-learning workflow.', tags: 'Python · Machine learning', url: 'https://colab.research.google.com/drive/1wxCWeHqj4pZ0ZLYTjWFYSuNopEZzS2WQ?usp=sharing', label: 'Open notebook' },
@@ -199,7 +199,8 @@ function renderFocus() {
 }
 function renderExperience() {
   const list = t('experiences');
-  $('experience-list').innerHTML = list.map((item, i) => `<article class="experience-item"><div class="experience-meta"><span class="date">${esc(item.date)}</span><span>${String(i + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')}</span></div><div class="experience-body"><h3>${esc(item.role)}</h3><div class="company-line">${esc(item.company)}</div><p>${esc(item.summary)}</p><ul>${item.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul><div class="tag-list">${item.tags.map(tag => `<span class="tag">${esc(tag)}</span>`).join('')}</div>${item.link ? `<p class="inline-link"><a href="${esc(item.link)}" target="_blank" rel="noopener noreferrer">${esc(item.linkLabel)} ↗</a></p>` : ''}</div></article>`).join('');
+  const roleBlock = r => `<div class="role-block"><div class="role-head"><strong>${esc(r.role)}</strong><span>${esc(r.team)} · ${esc(r.date)}</span></div><ul>${r.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul></div>`;
+  $('experience-list').innerHTML = list.map((item, i) => `<article class="experience-item"><div class="experience-meta"><span class="date">${esc(item.date)}</span><span>${String(i + 1).padStart(2, '0')} / ${String(list.length).padStart(2, '0')}</span></div><div class="experience-body"><h3>${esc(item.role)}</h3><div class="company-line">${esc(item.company)}</div><p>${esc(item.summary)}</p>${item.roles ? item.roles.map(roleBlock).join('') : `<ul>${item.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul>`}<div class="tag-list">${item.tags.map(tag => `<span class="tag">${esc(tag)}</span>`).join('')}</div>${item.link ? `<p class="inline-link"><a href="${esc(item.link)}" target="_blank" rel="noopener noreferrer">${esc(item.linkLabel)} ↗</a></p>` : ''}</div></article>`).join('');
 }
 function renderSkills() {
   $('skills-list').innerHTML = t('skills').map((item, i) => `<article class="skill-card"><span class="skill-number">${String(i + 1).padStart(2, '0')}</span><h3>${esc(item.title)}</h3><p>${esc(item.desc)}</p><div class="skill-items">${item.items.map(x => `<span>${esc(x)}</span>`).join('')}</div></article>`).join('');
